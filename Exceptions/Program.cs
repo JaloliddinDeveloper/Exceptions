@@ -4,9 +4,9 @@
     {
         Console.WriteLine("Ismingizni kiriting: ");
         string name = Console.ReadLine();
-       Console.WriteLine("Yoshingizni kiriting:");
-        string age =Console.ReadLine();
-        while(!TypeCheckInt(age))
+        Console.WriteLine("Yoshingizni kiriting:");
+        string age = Console.ReadLine();
+        while (!TypeCheckInt(age))
         {
             Console.WriteLine("Yoshingizni sonda kiriting:");
             age = Console.ReadLine();
